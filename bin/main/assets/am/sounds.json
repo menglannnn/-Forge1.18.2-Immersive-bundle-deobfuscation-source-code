@@ -1,0 +1,67 @@
+{
+	"collar_key_close":
+	{
+		"subtitle": "Collar Locked",
+		"sounds": [{"name": "am:collar_key_close"}]
+	},
+	"collar_key_open":
+	{
+		"subtitle": "Collar Unlocked",
+		"sounds": [{"name": "am:collar_key_open"}]
+	},
+	"collar_put":
+	{
+		"subtitle": "Collar Worn",
+		"sounds": [{"name": "am:collar_put"}]
+	},
+	"electric_shock":
+	{
+		"subtitle": "Shocked",
+		"sounds": [{"name": "am:electric_shock"}]
+	},
+	"shocker_activated":
+	{
+		"subtitle": "Shocker Ding",
+		"sounds": [{"name": "am:shocker_activated"}]
+	},
+	"sticky":
+	{
+		"subtitle": "Sticky",
+		"sounds": [{"name": "am:sticky"}]
+	},
+	"duct_tape":
+	{
+		"subtitle": "Duct Taped",
+		"sounds": [{"name": "am:duct_tape"}]
+	}
+	,
+	"slap":
+	{
+		"subtitle": "Slapped",
+		"sounds": [{"name": "am:slap"}]
+	}
+	,
+	"whip":
+	{
+		"subtitle": "Whipped",
+		"sounds": [{"name": "am:whip"}]
+	}
+	,
+	"slime":
+	{
+		"subtitle": "Slimed",
+		"sounds": [{"name": "am:slime"}]
+	}
+	,
+	"chain":
+	{
+		"subtitle": "Chained",
+		"sounds": [{"name": "am:chain"}]
+	}
+	,
+	"vine":
+	{
+		"subtitle": "Vined",
+		"sounds": [{"name": "am:vine"}]
+	}
+}

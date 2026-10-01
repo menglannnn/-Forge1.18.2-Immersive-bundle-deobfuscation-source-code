@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "am:block/green_padded_block"
+    }
+  }
+}

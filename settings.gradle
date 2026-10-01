@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        maven { name = 'AliyunGradlePlugin'; url = 'https://maven.aliyun.com/repository/gradle-plugin/' }
+        maven { name = 'AliyunPublic'; url = 'https://maven.aliyun.com/repository/public/' }
+        maven { name = 'BMCLAPIMirror'; url = 'https://bmclapi2.bangbang93.com/maven/' }
+    }
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == 'net.minecraftforge.gradle') {
+                useModule("net.minecraftforge.gradle:ForgeGradle:${requested.version}")
+            }
+        }
+    }
+}

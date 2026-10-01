@@ -1,0 +1,7 @@
+{
+	"parent": "am:block/padded_pane_bottom",
+	"textures": {
+		"1": "am:block/light_gray_padded_pane",
+		"particle": "am:block/light_gray_padded_pane"
+	}
+}

@@ -1,0 +1,72 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/8.1.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+The message received from the daemon indicates that the daemon has disappeared.
+Build request sent: Build{id=7b64d197-8973-4116-94e3-0d76f9dc7416, currentDir=C:\Users\Ð¡ÁÁÉµ±Æ\Desktop\ImmersiveRestraints-1.20.1}
+Attempting to read last messages from the daemon log...
+Daemon pid: 33676
+  log file: C:\GradleHome\daemon\8.1.1\daemon-33676.out.log
+----- Last  20 lines from daemon log file - daemon-33676.out.log -----
+2026-09-17T05:08:07.592+0800 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=7b64d197-8973-4116-94e3-0d76f9dc7416, currentDir=C:\Users\Ð¡ÁÁÉµ±Æ\Desktop\ImmersiveRestraints-1.20.1} with connection: socket connection from /127.0.0.1:14833 to /127.0.0.1:14834.
+2026-09-17T05:08:07.594+0800 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=7b64d197-8973-4116-94e3-0d76f9dc7416, currentDir=C:\Users\Ð¡ÁÁÉµ±Æ\Desktop\ImmersiveRestraints-1.20.1}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:14833 to /127.0.0.1:14834] after 0.0 minutes of idle
+2026-09-17T05:08:07.595+0800 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [bcd994b1-2fed-423a-90f5-103c34755023 port:14833, addresses:[localhost/127.0.0.1]]
+2026-09-17T05:08:07.595+0800 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [bcd994b1-2fed-423a-90f5-103c34755023 port:14833, addresses:[localhost/127.0.0.1]]
+2026-09-17T05:08:07.596+0800 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-09-17T05:08:07.596+0800 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-09-17T05:08:07.598+0800 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-09-17T05:08:07.598+0800 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2026-09-17T05:08:07.598+0800 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-09-17T05:08:07.599+0800 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=7b64d197-8973-4116-94e3-0d76f9dc7416, currentDir=C:\Users\Ð¡ÁÁÉµ±Æ\Desktop\ImmersiveRestraints-1.20.1}. Dispatching build started information...
+2026-09-17T05:08:07.599+0800 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@10b4ddfc
+2026-09-17T05:08:07.602+0800 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, PROCESSOR_LEVEL, PYTHON_BASIC_REPL, ALLUSERSPROFILE, PROCESSOR_ARCHITECTURE, TRAE_USER_CLOUDIDE_TOKEN_BLOB, VSCODE_GIT_IPC_HANDLE, PSModulePath, SystemDrive, =ExitCode, COPILOT_DEBUG_NONCE, COLORTERM, DIRNAME, USERNAME, VSCODE_GIT_ASKPASS_NODE, TERM_PROGRAM_VERSION, ProgramFiles(x86), GIT_ASKPASS, CHROME_CRASHPAD_PIPE_NAME, FPS_BROWSER_USER_PROFILE_STRING, APP_HOME, DEFAULT_JVM_OPTS, PATHEXT, DriverData, ProgramData, ProgramW6432, HOMEPATH, PROCESSOR_IDENTIFIER, PUBLIC, ProgramFiles, windir, =::, LOCALAPPDATA, USERDOMAIN, FPS_BROWSER_APP_PROFILE_STRING, LOGONSERVER, JAVA_HOME, PROMPT, LANG, VSCODE_GIT_ASKPASS_MAIN, OneDrive, =C:, APPDATA, GRADLE_USER_HOME, PYTHONSTARTUP, JAVA_EXE, VSCODE_GIT_ASKPASS_EXTRA_ARGS, CommonProgramFiles, Path, OS, TERM_PROGRAM, VSCODE_JDWP_ADAPTER_ENDPOINTS, COMPUTERNAME, PROCESSOR_REVISION, CLASSPATH, CommonProgramW6432, ComSpec, VSCODE_NONCE, APP_BASE_NAME, PSExecutionPolicyPreference, =D:, SystemRoot, TEMP, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), NUMBER_OF_PROCESSORS, VSCODE_JAVA_EXEC]
+2026-09-17T05:08:07.608+0800 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2026-09-17T05:08:07.608+0800 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 33676). The daemon log file: C:\GradleHome\daemon\8.1.1\daemon-33676.out.log
+2026-09-17T05:08:07.610+0800 [DEBUG] [org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon] Requesting daemon stop after processing Build{id=7b64d197-8973-4116-94e3-0d76f9dc7416, currentDir=C:\Users\Ð¡ÁÁÉµ±Æ\Desktop\ImmersiveRestraints-1.20.1}
+2026-09-17T05:08:07.610+0800 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build 
+2026-09-17T05:08:07.610+0800 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop as soon as idle requested. The daemon is busy: true
+2026-09-17T05:08:07.610+0800 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon stop has been requested. Sleeping until state changes.
+2026-09-17T05:08:07.611+0800 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2026-09-17T05:08:07.611+0800 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=7ad19393-c2d1-453f-ba68-d4e85c813d49,javaHome=C:\Program Files\Java\jdk-17,daemonRegistryDir=C:\GradleHome\daemon,pid=33676,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+----- End of the daemon log -----
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not dispatch a message to the daemon.
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.launcher.daemon.client.DaemonConnectionException: Could not dispatch a message to the daemon.
+	at org.gradle.launcher.daemon.client.DaemonClientConnection.dispatch(DaemonClientConnection.java:69)
+	at org.gradle.launcher.daemon.client.DaemonClientConnection.dispatch(DaemonClientConnection.java:35)
+	at org.gradle.launcher.daemon.client.DaemonClientInputForwarder$ForwardTextStreamToConnection.endOfStream(DaemonClientInputForwarder.java:81)
+	at org.gradle.launcher.daemon.client.InputForwarder$1.run(InputForwarder.java:99)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.gradle.internal.remote.internal.MessageIOException: Could not write '/127.0.0.1:14833'.
+	at org.gradle.internal.remote.internal.inet.SocketConnection.flush(SocketConnection.java:140)
+	at org.gradle.launcher.daemon.client.DaemonClientConnection.dispatch(DaemonClientConnection.java:60)
+	... 8 more
+Caused by: java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:76)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at org.gradle.internal.remote.internal.inet.SocketConnection$SocketOutputStream.writeWithNonBlockingRetry(SocketConnection.java:279)
+	at org.gradle.internal.remote.internal.inet.SocketConnection$SocketOutputStream.writeBufferToChannel(SocketConnection.java:267)
+	at org.gradle.internal.remote.internal.inet.SocketConnection$SocketOutputStream.flush(SocketConnection.java:261)
+	at org.gradle.internal.remote.internal.inet.SocketConnection.flush(SocketConnection.java:138)
+	... 9 more
+
+
+* Get more help at https://help.gradle.org
+ 
+EXIT_CODE=1 

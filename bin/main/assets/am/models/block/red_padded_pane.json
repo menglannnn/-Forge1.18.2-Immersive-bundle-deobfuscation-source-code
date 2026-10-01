@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "am:block/padded_pane",
+	"textures": {
+		"1": "am:block/red_padded_pane",
+		"particle": "am:block/red_padded_pane"
+	}
+}

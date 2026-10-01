@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "bottom": "am:block/white_padded_block",
+    "top": "am:block/white_padded_block"
+  }
+}

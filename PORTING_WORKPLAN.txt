@@ -1,0 +1,352 @@
+================================================================
+  沉浸式捆绑 (Immersive Restraints) 移植工作计划
+  Forge 1.18.2 → Forge 1.20.1
+  Mod ID: immersive_restraints
+================================================================
+
+项目路径: C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\
+当前进度: 反混淆 + 项目结构搭建 [已完成]
+整体进度: ████████░░░░░░░░░░░░ 40%
+
+================================================================
+阶段一: 反混淆与项目结构 [已完成 ✓]
+================================================================
+
+  [✓] 1.1  反编译 127 个混淆类 (CFR 0.152)
+  [✓] 1.2  分析类职责, 建立 127 个混淆名→语义名映射
+  [✓] 1.3  创建 Forge 1.20.1 项目结构 (build.gradle, mods.toml)
+  [✓] 1.4  复制并重打包到 com.dev.am.immersive_restraints.*
+  [✓] 1.5  替换所有 import abductionmod.content.xxx 引用
+  [✓] 1.6  Mod ID "am" → "immersive_restraints" 全局替换
+  [✓] 1.7  提取 2543 个资源文件并迁移到新 assets 路径
+
+================================================================
+阶段二: Minecraft/Forge API 适配 (1.18.2 → 1.20.1)
+================================================================
+
+  [ ] 2.1  注册系统迁移
+           - DeferredRegister.create() 参数变化
+             1.18.2: DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID)
+             1.20.1: DeferredRegister.create(BuiltInRegistries.ITEM, MOD_ID)
+           - RegistryObject → Supplier 变更
+           - 涉及文件:
+             init/ModItems.java
+             init/ModSounds.java
+             core/CreativeTab.java
+             block/ModBlocks.java
+             blockentity/ModBlockEntities.java
+
+  [ ] 2.2  文本组件 API 变更
+           - TextComponent → MutableComponent
+           - TranslatableComponent → Component.translatable()
+           - TextComponent(String) → Component.literal(String)
+           - 涉及文件: 所有 command/*.java, util/TextComponentUtil.java,
+             mechanic/BondageManager.java, client/*.java
+
+  [ ] 2.3  注册表 API 变更
+           - Registry → BuiltInRegistries
+           - ForgeRegistries → ForgeRegistries (部分方法签名变更)
+           - 涉及文件: mechanic/BondageManager.java, data/*.java
+
+  [ ] 2.4  网络包系统迁移
+           - SimpleChannel 注册方式变更
+           - PacketBuffer → FriendlyByteBuf
+           - 涉及文件: network/*.java (全部 8 个文件)
+
+  [ ] 2.5  方块/方块实体 API 变更
+           - BlockBehaviour.Properties 变更
+           - BlockEntity 变更
+           - 涉及文件: block/*.java, blockentity/*.java
+
+  [ ] 2.6  事件系统迁移
+           - EventBusSubscriber 注解变更
+           - 部分事件类重命名或移除
+           - 涉及文件: event/*.java (全部 6 个文件)
+
+  [ ] 2.7  渲染系统迁移
+           - RenderType 变更
+           - PoseStack → PoseStack (部分方法变更)
+           - VertexConsumer 变更
+           - 涉及文件: render/*.java (全部 12 个文件)
+
+  [ ] 2.8  数据生成器迁移
+           - DataProvider 接口变更
+           - LanguageProvider 变更
+           - 涉及文件: data/*.java (全部 10 个文件)
+
+================================================================
+阶段三: 混淆方法名/字段名替换 (Official Mappings)
+================================================================
+
+  [ ] 3.1  识别所有混淆方法调用 (m_xxxxx / f_xxxxx / p_xxxxx)
+           - 使用正则扫描: \b[mfp]_\d+\b
+           - 预估数量: 500-1000 处
+
+  [ ] 3.2  常见混淆方法映射表 (需逐一替换):
+
+           LivingEntity:
+             m_5833_()  → isSpectator()
+             m_20123_() → isShiftKeyDown()
+             m_6144_()  → getMainArm()
+             m_7556_()  → playSound()
+             m_21153_() → getHealth()
+             m_21223_() → setHealth()
+
+           Entity:
+             m_20148_() → getUUID()
+             m_20175_() → setPos()
+             m_20185_() → getX()
+             m_20186_() → getY()
+             m_20187_() → getZ()
+             m_146884_() → position()
+
+           ItemStack:
+             m_41720_() → getItem()
+             m_41619_() → isEmpty()
+             m_41782_() → getOrCreateTag()
+             m_41784_() → getTag()
+             m_41654_() → getCount()
+             m_41769_() → copy()
+
+           Player:
+             m_150110_() → getInventory()
+             m_36336_() → getAbilities()
+             m_6107_()   → isCreative()
+
+           Level:
+             m_7654_()   → isClientSide()
+             m_46772_()  → getBlockState()
+             m_6329_()   → getGameTime()
+
+  [ ] 3.3  混淆字段映射表:
+
+             f_147148_ → LOGGER (或类似)
+             f_208017_ → TICKS_PER_SECOND
+
+  [ ] 3.4  使用批量替换脚本完成所有混淆名替换
+           - 优先替换高频方法
+           - 逐文件验证替换正确性
+
+================================================================
+阶段四: 依赖库 API 适配
+================================================================
+
+  [ ] 4.1  Curios API 迁移 (1.18.2 → 5.9.0+1.20.1)
+           - CuriosApi.getCuriosHelper() 变更
+           - SlotContext 构造变更
+           - ICurio 接口变更
+           - 涉及文件: curios/*.java, mechanic/BondageManager.java
+
+  [ ] 4.2  GeckoLib 迁移 (1.18.2 → 4.4.4 for 1.20.1)
+           - GeoArmorItem 构造变更
+           - GeoArmorRenderer 变更
+           - AnimationFactory → AnimationController 变更
+           - IAnimatable 接口变更
+           - 涉及文件: item/GeoArmorBase.java, render/GeoArmor*.java,
+             animation/*.java
+
+  [ ] 4.3  PlayerAnimationLib 迁移 (→ 1.0.2+1.20.1)
+           - AnimationPlayer API 变更
+           - 涉及文件: animation/PlayerAnimProvider.java,
+             animation/PlayerAnimLibIntegration.java
+
+  [ ] 4.4  BendyLib 兼容性验证
+           - 检查 API 是否有 1.20.1 版本
+           - 涉及文件: animation/BendyLibIntegration.java
+
+================================================================
+阶段五: 缺失类创建与修复
+================================================================
+
+  [ ] 5.1  Windows 大小写冲突丢失的类 (需从 JAR 重新提取):
+           - aL.java → network/TyingPacket.java
+           - aM.java → network/UntyingPacket.java
+           - bP.java → blockentity/BlockEntityRenderer.java
+           - bY.java → event/RenderEventHandler.java
+           - ac_0.java → item/Vulnerability.java
+           - e_0.java → item/ResistanceLevel.java
+
+           方案: 使用 jar 命令逐个提取 .class 文件,
+           用 CFR 单独反编译, 然后应用相同的反混淆流程
+
+  [ ] 5.2  内部类/匿名类处理
+           - 检查所有 $0, $1 等内部类引用
+           - 确保内部类被正确反编译和重命名
+
+  [ ] 5.3  缺失的 GameruleRegistry 等辅助类
+           - com.dev.am.mod.gamerule.* 需要创建对应类
+           - config/GameruleRegistry.java
+           - config/ArmorIsHiddenWhenTied.java
+           - config/StruggleMinigameSpeedPercent.java
+           - config/StruggleFailStrengthPercent.java
+           - config/StruggleSuccessStrengthPercent.java
+           - config/UtmForEverybody.java
+
+================================================================
+阶段六: 资源文件适配
+================================================================
+
+  [ ] 6.1  资源路径更新
+           - 所有 JSON 文件中的 "am" → "immersive_restraints"
+           - geo.json / animation.json / lang.json
+           - 涉及目录: assets/immersive_restraints/geo/
+                       assets/immersive_restraints/animations/
+                       assets/immersive_restraints/lang/
+
+  [ ] 6.2  GeckoLib 模型格式验证
+           - .geo.json 格式在 GeckoLib 4.x 中是否有变更
+           - .animation.json 格式变更
+
+  [ ] 6.3  Curios 插槽图标路径更新
+           - assets/curios/textures/slot/*.png 保持不变
+           - curios 槽位注册 JSON 需更新 mod ID
+
+  [ ] 6.4  语言文件更新
+           - en_us.json / zh_cn.json 中所有 "am." → "immersive_restraints."
+           - 键名前缀更新
+
+================================================================
+阶段七: Gradle 构建配置
+================================================================
+
+  [ ] 7.1  安装 Gradle Wrapper
+           - 下载 Gradle 8.x (Forge 1.20.1 MDK 要求)
+           - 执行 gradlew wrapper --gradle-version 8.5
+
+  [ ] 7.2  验证依赖解析
+           - gradlew dependencies --refresh-dependencies
+           - 确认 Curios, GeckoLib, PlayerAnimLib 可下载
+
+  [ ] 7.3  首次编译测试
+           - gradlew compileJava
+           - 记录所有编译错误
+
+  [ ] 7.4  逐个修复编译错误
+           - 缺失导入
+           - 类型不匹配
+           - 方法签名变更
+
+================================================================
+阶段八: 编译修复与功能验证
+================================================================
+
+  [ ] 8.1  第一轮编译修复 (预估 200-400 个错误)
+           - 主要错误类型:
+             a) 找不到符号 (混淆名未替换)
+             b) 方法签名不匹配 (API 变更)
+             c) 类型不兼容 (泛型变更)
+             d) 缺失类 (未创建的辅助类)
+
+  [ ] 8.2  第二轮编译修复 (预估 50-100 个错误)
+           - 剩余的细微 API 差异
+           - 泛型擦除问题
+           - 访问权限问题
+
+  [ ] 8.3  客户端启动测试
+           - gradlew runClient
+           - 验证模组加载
+           - 验证物品注册
+           - 验证 Curios 插槽
+
+  [ ] 8.4  功能回归测试
+           - 束缚/解缚机制
+           - 挣扎小游戏
+           - 口塞文字变换
+           - 蒙眼效果
+           - 动画播放
+           - 命令系统
+
+================================================================
+阶段九: 最终优化与清理
+================================================================
+
+  [ ] 9.1  代码清理
+           - 移除 CFR 反编译注释头
+           - 清理未使用的 import
+           - 格式化代码
+
+  [ ] 9.2  添加缺失的注释和文档
+           - 关键类添加 Javadoc
+           - 复杂方法添加行内注释
+
+  [ ] 9.3  确认所有物品/方块无缺失
+           - 对比原始 JAR 的物品列表
+           - 验证所有纹理/模型正确加载
+
+  [ ] 9.4  最终构建
+           - gradlew build
+           - 生成可分发的 .jar 文件
+
+================================================================
+优先级排序 (建议执行顺序)
+================================================================
+
+  P0 (阻塞性 - 必须首先完成):
+    → 7.1  安装 Gradle Wrapper
+    → 3.1  识别所有混淆方法调用
+    → 3.2  替换高频混淆方法名
+    → 7.3  首次编译测试 (了解实际错误量)
+
+  P1 (高优先级 - 编译必需):
+    → 2.1  注册系统迁移
+    → 2.2  文本组件 API 变更
+    → 2.4  网络包系统迁移
+    → 5.1  缺失类创建
+    → 5.3  GameruleRegistry 等辅助类创建
+
+  P2 (中优先级 - 功能必需):
+    → 2.3  注册表 API 变更
+    → 2.5  方块/方块实体 API 变更
+    → 2.6  事件系统迁移
+    → 4.1  Curios API 迁移
+    → 4.2  GeckoLib 迁移
+
+  P3 (低优先级 - 增强功能):
+    → 2.7  渲染系统迁移
+    → 2.8  数据生成器迁移
+    → 4.3  PlayerAnimationLib 迁移
+    → 6.1  资源路径更新
+    → 6.2  GeckoLib 模型格式验证
+
+  P4 (收尾):
+    → 8.3  客户端启动测试
+    → 8.4  功能回归测试
+    → 9.x  最终优化与清理
+
+================================================================
+预估工作量
+================================================================
+
+  阶段二 (API 适配):     ~8-12 小时
+  阶段三 (混淆名替换):   ~4-6 小时
+  阶段四 (依赖适配):     ~4-6 小时
+  阶段五 (缺失类):       ~2-3 小时
+  阶段六 (资源适配):     ~1-2 小时
+  阶段七 (Gradle):       ~1-2 小时
+  阶段八 (编译修复):     ~8-16 小时
+  阶段九 (优化清理):     ~2-4 小时
+
+  总预估: 30-51 小时
+
+================================================================
+关键风险与注意事项
+================================================================
+
+  1. BendyLib 可能没有 1.20.1 版本
+     → 需要验证, 如不可用则需寻找替代方案或自行适配
+
+  2. 混淆方法名数量可能超出预期
+     → 500-1000 处只是保守估计, 实际可能更多
+     → 建议优先处理编译报错的混淆名, 而非全部替换
+
+  3. GeckoLib 4.x 动画系统可能有重大变更
+     → 需要仔细对比 1.18.2 和 1.20.1 版本的 API
+     → 可能需要重写部分动画逻辑
+
+  4. 网络包系统在 1.20.1 中有安全变更
+     → 需要确保所有网络包正确注册和验证
+
+  5. 原始 JAR 中某些类可能使用了 Mixin
+     → 需要检查是否有 mixin 注入, 如有则需要单独处理
+
+================================================================

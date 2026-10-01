@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "facing=east,open=false": {
+      "model": "am:block/cyan_padded_pane",
+      "y": 90
+    },
+    "facing=east,open=true": {
+      "model": "am:block/cyan_padded_pane_open",
+      "y": 90
+    },
+    "facing=north,open=false": {
+      "model": "am:block/cyan_padded_pane"
+    },
+    "facing=north,open=true": {
+      "model": "am:block/cyan_padded_pane_open"
+    },
+    "facing=south,open=false": {
+      "model": "am:block/cyan_padded_pane",
+      "y": 180
+    },
+    "facing=south,open=true": {
+      "model": "am:block/cyan_padded_pane_open",
+      "y": 180
+    },
+    "facing=west,open=false": {
+      "model": "am:block/cyan_padded_pane",
+      "y": 270
+    },
+    "facing=west,open=true": {
+      "model": "am:block/cyan_padded_pane_open",
+      "y": 270
+    },
+    "facing=up,open=true": {
+      "model": "am:block/cyan_padded_pane_open_bottom"
+    },
+    "facing=up,open=false": {
+      "model": "am:block/cyan_padded_pane_bottom"
+    },
+    "facing=down,open=true": {
+      "model": "am:block/cyan_padded_pane_open_top"
+    },
+    "facing=down,open=false": {
+      "model": "am:block/cyan_padded_pane_top"
+    }
+  }
+}

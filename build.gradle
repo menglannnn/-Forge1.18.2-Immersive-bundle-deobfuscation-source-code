@@ -1,0 +1,98 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+version = '1.2.56'
+group = 'com.dev.am'
+archivesBaseName = 'ImmersiveRestraints'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    copyIdeResources = true
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', 'immersive_restraints'
+            mods {
+                immersive_restraints { source sourceSets.main }
+            }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', 'immersive_restraints'
+            mods {
+                immersive_restraints { source sourceSets.main }
+            }
+        }
+        data {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            args '--mod', 'immersive_restraints', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            mods {
+                immersive_restraints { source sourceSets.main }
+            }
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    maven { name = 'AliyunPublic'; url = 'https://maven.aliyun.com/repository/public/' }
+    maven { name = 'AliyunCentral'; url = 'https://maven.aliyun.com/repository/central/' }
+    maven { name = 'BMCLAPIMirror'; url = 'https://bmclapi2.bangbang93.com/maven/' }
+    maven {
+        name = 'CuriosRepository'
+        url = 'https://maven.theillusivec4.top/'
+        content { includeGroup 'top.theillusivec4.curios' }
+    }
+    maven {
+        name = 'GeckoLibRepository'
+        url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content { includeGroup 'software.bernie.geckolib' }
+    }
+    maven {
+        name = 'KosmXRepository'
+        url = 'https://maven.kosmx.dev/'
+        content { includeGroupByRegex 'dev\\.kosmx(\\..*)?' }
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
+    implementation fg.deobf('top.theillusivec4.curios:curios-forge:5.9.0+1.20.1')
+    implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.4.4')
+    implementation fg.deobf('dev.kosmx.player-anim:player-animation-lib-forge:1.0.2-rc1+1.20')
+}
+
+def buildTimestamp = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ssZ").format(new Date())
+
+jar {
+    manifest {
+        attributes([
+            'Specification-Title'     : 'immersive_restraints',
+            'Specification-Vendor'    : 'ImmersiveRestraints',
+            'Specification-Version'   : '1',
+            'Implementation-Title'    : project.name,
+            'Implementation-Version'  : project.jar.archiveVersion,
+            'Implementation-Vendor'   : 'ImmersiveRestraints',
+            'Implementation-Timestamp': buildTimestamp
+        ])
+    }
+}
+
+jar.finalizedBy('reobfJar')

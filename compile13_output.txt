@@ -1,0 +1,706 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/8.1.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+
+> Task :compileJava FAILED
+gradlew.bat : C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\animation\AnimationId.java:1: ????: ???? GBK 
+??????????? (0xBF)
+At line:1 char:156
++ ... mersiveRestraints-1.20.1'; & '.\gradlew.bat' compileJava 2>&1 | Out-F ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\§³?????...???????? (0xBF):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\animation\AnimationId.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\animation\AnimationType.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\animation\AnimationType.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\animation\StruggleAnimations.java:1: ????: ???? GBK ??????????? 
+(0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\animation\StruggleAnimations.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\blindfold\BlindfoldEffect.java:1: ????: ???? GBK ??????????? 
+(0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\blindfold\BlindfoldEffect.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\blindfold\BlindfoldOverlay.java:1: ????: ???? GBK ??????????? 
+(0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\blindfold\BlindfoldOverlay.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\blindfold\BlindfoldType.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\blindfold\BlindfoldType.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\block\BondageSlabBlock.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\block\BondageSlabBlock.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\block\BondageStairBlock.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\block\BondageStairBlock.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\block\ModBlock.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\block\ModBlock.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\block\ModBlockProperties.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\block\ModBlockProperties.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\blockentity\ModBlockEntities.java:1: ????: ???? GBK ??????????? 
+(0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\blockentity\ModBlockEntities.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\blockentity\StocksBlockEntity.java:1: ????: ???? GBK ??????????? 
+(0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\blockentity\StocksBlockEntity.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\ArmorIsHiddenWhenTied.java:24: ????: ???? GBK ??????????? 
+(0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\ArmorIsHiddenWhenTied.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\ArmorIsHiddenWhenTied.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\CanLeashCollar.java:24: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\CanLeashCollar.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\CanLeashCollar.java:1: ????: ??? class??interface??enum ?? 
+record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\CollarLeashTime.java:24: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\CollarLeashTime.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\CollarLeashTime.java:1: ????: ??? class??interface??enum 
+?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\CommonConfig.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\CommonConfig.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\DefaultTalkArea.java:24: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\DefaultTalkArea.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\DefaultTalkArea.java:1: ????: ??? class??interface??enum 
+?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\EarplugsMuteAudio.java:24: ????: ???? GBK ??????????? 
+(0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\EarplugsMuteAudio.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\EarplugsMuteAudio.java:1: ????: ??? class??interface??enum 
+?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\EarplugsMuteChat.java:24: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\EarplugsMuteChat.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\EarplugsMuteChat.java:1: ????: ??? class??interface??enum 
+?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\GameruleRegistry$RuleDataType.java:8: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\GameruleRegistry$RuleDataType.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\GameruleRegistry$RuleDataType.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\GameruleRegistry.java:47: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\GameruleRegistry.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\Gamerules.java:14: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\Gamerules.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\Gamerules.java:1: ????: ??? class??interface??enum ?? 
+record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\LimitedItemPickupForTiedPlayers.java:24: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\LimitedItemPickupForTiedPlayers.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\LimitedItemPickupForTiedPlayers.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\MeRadius.java:24: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\MeRadius.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\MeRadius.java:1: ????: ??? class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\NiceNTightConfig.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\NiceNTightConfig.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\NoRpImmunityTimeSeconds.java:24: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\NoRpImmunityTimeSeconds.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\NoRpImmunityTimeSeconds.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\NoRpResetTimeSeconds.java:24: ????: ???? GBK ??????????? 
+(0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\NoRpResetTimeSeconds.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\NoRpResetTimeSeconds.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\NoRpThinkingTimeSeconds.java:24: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\NoRpThinkingTimeSeconds.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\NoRpThinkingTimeSeconds.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\NorpUntiesPlayersAfter2ndRun.java:24: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\NorpUntiesPlayersAfter2ndRun.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\NorpUntiesPlayersAfter2ndRun.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\StruggleFailStrengthPercent.java:24: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\StruggleFailStrengthPercent.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\StruggleFailStrengthPercent.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\StruggleMinigameSpeedPercent.java:24: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\StruggleMinigameSpeedPercent.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\StruggleMinigameSpeedPercent.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\StruggleSuccessStrengthPercent.java:24: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\StruggleSuccessStrengthPercent.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\StruggleSuccessStrengthPercent.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\TeleportWithLeashedPlayers.java:24: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\TeleportWithLeashedPlayers.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\TeleportWithLeashedPlayers.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\TextureConfig.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\TextureConfig.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\TiedPeopleSink.java:24: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\TiedPeopleSink.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\TiedPeopleSink.java:1: ????: ??? class??interface??enum ?? 
+record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\TyingTime.java:24: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\TyingTime.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\TyingTime.java:1: ????: ??? class??interface??enum ?? 
+record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\TyingTimeWhenTied.java:24: ????: ???? GBK ??????????? 
+(0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\TyingTimeWhenTied.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\TyingTimeWhenTied.java:1: ????: ??? class??interface??enum 
+?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\UntyingStrengthPercent.java:24: ????: ???? GBK ??????????? 
+(0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\UntyingStrengthPercent.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\UntyingStrengthPercent.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\UtmForEverybody.java:24: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mod\gamerule\UtmForEverybody.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\UtmForEverybody.java:1: ????: ??? class??interface??enum 
+?? record
+?package com.dev.am.immersive_restraints.config;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\core\CreativeTab.java:1: ????: ??? class??interface??enum ?? 
+record
+?package com.dev.am.immersive_restraints.core;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\curios\CurioRender.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\curios\CurioRender.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\curios\CurioSlotType.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\curios\CurioSlotType.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\data\BlockModelProvider.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\data\BlockModelProvider.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\data\ModBlockTags.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\data\ModBlockTags.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\data\ModItemTags.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\data\ModItemTags.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\data\TagProvider.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\data\TagProvider.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\PlayerEventHandler.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\PlayerEventHandler.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\gag\GagEffect.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\gag\GagEffect.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\gag\GagLevel.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\gag\GagLevel.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\gag\GagTransformer.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\gag\GagTransformer.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\init\ModSounds.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\init\ModSounds.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\input\KeyBindings.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\input\KeyBindings.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\BondageMaterial.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\BondageMaterial.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\GeoArmorBase.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\GeoArmorBase.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\PartVisibility.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\PartVisibility.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\SlotTypeProperty.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\SlotTypeProperty.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\TextureProperty.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\TextureProperty.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\VulnerabilityType.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\VulnerabilityType.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageState.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageState.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\HandBindLogic.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\HandBindLogic.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\KeyValidation.java:1: ????: ???? GBK ??????????? (0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\KeyValidation.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\MinigameArrowData.java:1: ????: ???? GBK ??????????? 
+(0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\MinigameArrowData.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\MinigameDirection.java:1: ????: ???? GBK ??????????? 
+(0xBF)
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\MinigameDirection.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\BlockModelMix.java:10: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\BlockModelMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\BlockModelMix.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\CameraMix.java:10: ????: ???? GBK ??????????? 
+(0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\CameraMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\CameraMix.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\ClientPacketListenerMix.java:30: ????: ???? 
+GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\ClientPacketListenerMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\CuriosScreenMix.java:36: ????: ???? 
+GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\compat\CuriosScreenMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\CuriosScreenRefmapMix.java:25: ????: 
+???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\compat\CuriosScreenRefmapMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\CuriosScreenRefmapMix.java:1: ????: 
+??? class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins.compat;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\IBendableMix.java:10: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\compat\IBendableMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\IBendableMix.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins.compat;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\MpmCompatModelRendererMix.java:39: 
+????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\compat\MpmCompatModelRendererMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\MpmCompatModelRendererMix.java:1: 
+????: ??? class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins.compat;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\RenderButtonMix.java:22: ????: ???? 
+GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\compat\RenderButtonMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\RenderButtonMix.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins.compat;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\EntityRenderDispatcherMix.java:96: ????: ???? 
+GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\EntityRenderDispatcherMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\GameRendererMix.java:88: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\GameRendererMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\HumanoidArmorLayerMix.java:93: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\HumanoidArmorLayerMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\HumanoidModelMix.java:51: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\HumanoidModelMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\InGameUiMix$1.java:7: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\InGameUiMix$1.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\InGameUiMix$1.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\InGameUiMix.java:90: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\InGameUiMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\IntegratedServerMix.java:20: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\IntegratedServerMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\IntegratedServerMix.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\ItemEntityRendererMix.java:22: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\ItemEntityRendererMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\ItemFrameMix.java:33: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\ItemFrameMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\ItemInHandRendererMixin.java:33: ????: ???? 
+GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\ItemInHandRendererMixin.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\ItemInHandRendererMixin.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\ItemRendererMix.java:48: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\ItemRendererMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\KeyboardInputMix.java:143: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\KeyboardInputMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\LayerDefinitionsMix.java:52: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\LayerDefinitionsMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\LibraryMix.java:16: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\LibraryMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\LibraryMix.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\LivingEntityRendererMix.java:126: ????: ???? 
+GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\LivingEntityRendererMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\LocalPlayerMix.java:18: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\LocalPlayerMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\LocalPlayerMix.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\MinecraftClientMix.java:164: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\MinecraftClientMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\ModelLayersMix.java:27: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\ModelLayersMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\PlayerItemInHandLayerMix.java:30: ????: ???? 
+GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\PlayerItemInHandLayerMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\PlayerItemInHandLayerMix.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\PlayerModelMix.java:60: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\PlayerModelMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\PlayerRendererMix.java:101: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\PlayerRendererMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\ScreenEffectRendererMix.java:26: ????: ???? 
+GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\ScreenEffectRendererMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\ScreenEffectRendererMix.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin.client_mixins;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\ScreenMix.java:37: ????: ???? GBK ??????????? 
+(0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\ScreenMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\SoundEngineMix.java:32: ????: ???? GBK 
+??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\client_mixins\SoundEngineMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\CurioSlotMix.java:33: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\CurioSlotMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\ElytraItemMix.java:22: ????: ???? GBK ??????????? (0x80)
+1 actionable task: 1 executed
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\ElytraItemMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\ElytraItemMix.java:1: ????: ??? class??interface??enum ?? 
+record
+?package com.dev.am.immersive_restraints.mixin;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\EmoteCommandsMix.java:20: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\EmoteCommandsMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\EmoteCommandsMix.java:1: ????: ??? class??interface??enum 
+?? record
+?package com.dev.am.immersive_restraints.mixin;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\EnchantmentHelperMix.java:10: ????: ???? GBK ??????????? 
+(0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\EnchantmentHelperMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\EnchantmentHelperMix.java:1: ????: ??? 
+class??interface??enum ?? record
+?package com.dev.am.immersive_restraints.mixin;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\EntityMix.java:78: ????: ???? GBK ??????????? (0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\EntityMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\GameruleCommandMix.java:23: ????: ???? GBK ??????????? 
+(0x80)
+/* Location:              C:\Users\Ð¡ÁÁÉµ???\Desktop\[Forge1.18.2]³Á½þÊ½À¦°óV1.2.56.jar!\com\dev\am\mixin\GameruleCommandMix.class
+                                        ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\MixinServerLevel.java:1: ????: ??? class??interface??enum 
+?? record
+?package com.dev.am.immersive_restraints.mixin;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\tools\AxeMix.java:1: ????: ??? class??interface??enum ?? 
+record
+?package com.dev.am.immersive_restraints.mixin.tools;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\tools\ShearsMix.java:1: ????: ??? class??interface??enum ?? 
+record
+?package com.dev.am.immersive_restraints.mixin.tools;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\tools\ShovelMix.java:1: ????: ??? class??interface??enum ?? 
+record
+?package com.dev.am.immersive_restraints.mixin.tools;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\tools\SwordMix.java:1: ????: ??? class??interface??enum ?? 
+record
+?package com.dev.am.immersive_restraints.mixin.tools;
+^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\render\BondageRenderer.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\render\ColorMarkModel.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\render\DynamicItemModel.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\render\GeoArmorModelBase.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\render\GeoArmorRenderer.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\render\GeoArmorRendererBase.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\render\RenderHelper.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\render\StruggleGeoRenderer.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\util\ConfigBase.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+C:\Users\§³?????\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\util\ModUtil.java:1: ????: ??????: '\ufffd'
+??/*
+ ^
+93 ??????
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3m 26s

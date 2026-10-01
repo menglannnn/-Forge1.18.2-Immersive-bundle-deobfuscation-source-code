@@ -1,0 +1,491 @@
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\client\AgeConfirmScreen.java:40: 错误: 类 bu 是公共的, 应在名为 bu.java 的文件中声明
+public class bu
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\client\WardrobeScreen.java:50: 错误: 类 bv 是公共的, 应在名为 bv.java 的文件中声明
+public class bv
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\config\GameruleRegistry$RuleDataType.java:3: 错误: 枚举 RuleDataType 是公共的, 应在名为 RuleDataType.java 的文件中声明
+public enum RuleDataType {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\gag\GagTransformer.java:17: 错误: 类 bs 是公共的, 应在名为 bs.java 的文件中声明
+public class bs {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\ArmorDrawnProperty.java:75: 错误: 类 bz 是公共的, 应在名为 bz.java 的文件中声明
+public class bz {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BlindfoldLogic.java:27: 错误: 类 bq 是公共的, 应在名为 bq.java 的文件中声明
+public class bq {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageManager.java:118: 错误: 类 bx 是公共的, 应在名为 bx.java 的文件中声明
+public class bx {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageState.java:17: 错误: 类 bm 是公共的, 应在名为 bm.java 的文件中声明
+public class bm {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\HandBindLogic.java:15: 错误: 类 bn 是公共的, 应在名为 bn.java 的文件中声明
+public class bn {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\LegBindLogic.java:46: 错误: 类 bo 是公共的, 应在名为 bo.java 的文件中声明
+public class bo {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\LegTyingLogic.java:24: 错误: 类 bt 是公共的, 应在名为 bt.java 的文件中声明
+public class bt {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\NBTManager.java:18: 错误: 类 bw 是公共的, 应在名为 bw.java 的文件中声明
+public class bw {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\StruggleLogic.java:37: 错误: 类 bl 是公共的, 应在名为 bl.java 的文件中声明
+public class bl {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\network\ChannelHandler.java:43: 错误: 类 bj 是公共的, 应在名为 bj.java 的文件中声明
+public class bj {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\network\PacketEncoder.java:23: 错误: 类 bk 是公共的, 应在名为 bk.java 的文件中声明
+public class bk {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\util\TextComponentUtil.java:20: 错误: 类 bi 是公共的, 应在名为 bi.java 的文件中声明
+public class bi {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\util\TooltipFormatter.java:21: 错误: 类 bh 是公共的, 应在名为 bh.java 的文件中声明
+public class bh {
+       ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\animation\AnimationParser.java:46: 错误: 程序包com.fasterxml.jackson.extra不存在
+import com.fasterxml.jackson.extra.a;
+                                  ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\animation\AnimLibCompat.java:33: 错误: 找不到符号
+import net.minecraft.world.level.storage.loot.LootTables;
+                                             ^
+  符号:   类 LootTables
+  位置: 程序包 net.minecraft.world.level.storage.loot
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\command\TalkAreaCommand.java:50: 错误: 程序包com.dev.am.mod.gamerule不存在
+import com.dev.am.mod.gamerule.LimitedItemPickupForTiedPlayers;
+                              ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\curios\CurioIntegration.java:24: 错误: 程序包com.dev.am.mod.gamerule不存在
+import com.dev.am.mod.gamerule.TyingTime;
+                              ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\curios\CurioIntegration.java:25: 错误: 程序包com.dev.am.mod.gamerule不存在
+import com.dev.am.mod.gamerule.TyingTimeWhenTied;
+                              ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\data\LanguageProvider.java:37: 错误: 程序包org.mozilla.javascript不存在
+import org.mozilla.javascript.Context;
+                             ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\data\LanguageProvider.java:38: 错误: 程序包org.mozilla.javascript不存在
+import org.mozilla.javascript.Scriptable;
+                             ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\data\LanguageProvider.java:39: 错误: 程序包org.mozilla.javascript不存在
+import org.mozilla.javascript.ScriptableObject;
+                             ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\data\ModBlockTags.java:10: 错误: 程序包com.dev.am.mod.gamerule不存在
+import com.dev.am.mod.gamerule.Gamerules;
+                              ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\InteractEventHandler.java:54: 错误: 找不到符号
+import com.mojang.math.Matrix4f;
+                      ^
+  符号:   类 Matrix4f
+  位置: 程序包 com.mojang.math
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\InteractEventHandler.java:55: 错误: 找不到符号
+import com.mojang.math.Vector3f;
+                      ^
+  符号:   类 Vector3f
+  位置: 程序包 com.mojang.math
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\InteractEventHandler.java:56: 错误: 程序包io.github.kosmx.bendylib.impl不存在
+import io.github.kosmx.bendylib.impl.BendableCuboid;
+                                    ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\InteractEventHandler.java:244: 错误: 程序包BendableCuboid不存在
+    public static void renderCustom(BendableCuboid.Quad[] quadArray, PoseStack.Pose pose, VertexConsumer vertexConsumer, float f, float f2, float f3, float f4, int n2, int n3) {
+                                                  ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\gag\GagLevel.java:12: 错误: 找不到符号
+import net.minecraft.data.loot.ChestLoot;
+                              ^
+  符号:   类 ChestLoot
+  位置: 程序包 net.minecraft.data.loot
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\gag\GagLevel.java:17: 错误: 找不到符号
+extends ChestLoot {
+        ^
+  符号: 类 ChestLoot
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\gag\GagScriptEngine.java:22: 错误: 程序包com.dev.am.mod.gamerule不存在
+import com.dev.am.mod.gamerule.MeRadius;
+                              ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\gag\GagType.java:21: 错误: 找不到符号
+import net.minecraft.data.loot.BlockLoot;
+                              ^
+  符号:   类 BlockLoot
+  位置: 程序包 net.minecraft.data.loot
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\gag\GagType.java:26: 错误: 找不到符号
+extends BlockLoot {
+        ^
+  符号: 类 BlockLoot
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\BondageProperties.java:31: 错误: 找不到符号
+    public HashMap<VulnerabilityType.a, Float> vulnerabilityMap = new HashMap();
+                                    ^
+  符号:   类 a
+  位置: 类 VulnerabilityType
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\BondageProperties.java:156: 错误: 找不到符号
+    public BondageProperties withVulnerableTo(VulnerabilityType.a a2, float f) {
+                                                               ^
+  符号:   类 a
+  位置: 类 VulnerabilityType
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\input\KeyBindings.java:13: 错误: 找不到符号
+import net.minecraftforge.client.ClientRegistry;
+                                ^
+  符号:   类 ClientRegistry
+  位置: 程序包 net.minecraftforge.client
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\AnimationProperty.java:28: 错误: 程序包net.minecraftforge.forge.event.lifecycle不存在
+import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
+                                               ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\AnimationProperty.java:36: 错误: 找不到符号
+    public static void gatherData(GatherDataEvent gatherDataEvent) {
+                                  ^
+  符号:   类 GatherDataEvent
+  位置: 类 AnimationProperty
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\ArmorDrawnProperty.java:50: 错误: 找不到符号
+import com.mojang.math.Matrix4f;
+                      ^
+  符号:   类 Matrix4f
+  位置: 程序包 com.mojang.math
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\ArmorDrawnProperty.java:51: 错误: 找不到符号
+import com.mojang.math.Vector3f;
+                      ^
+  符号:   类 Vector3f
+  位置: 程序包 com.mojang.math
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\ArmorDrawnProperty.java:52: 错误: 程序包io.github.kosmx.bendylib.impl不存在
+import io.github.kosmx.bendylib.impl.BendableCuboid;
+                                    ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\ArmorDrawnProperty.java:95: 错误: 找不到符号
+    public static D hidePartsInModel(Player player, PlayerModel<?> playerModel, @Nullable ItemStack itemStack) {
+                  ^
+  符号:   类 D
+  位置: 类 bz
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\ArmorDrawnProperty.java:240: 错误: 程序包BendableCuboid不存在
+    public static void renderCustom(BendableCuboid.Quad[] quadArray, PoseStack.Pose pose, VertexConsumer vertexConsumer, float f, float f2, float f3, float f4, int n2, int n3) {
+                                                  ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\EquipSoundProperty.java:18: 错误: 程序包noppes.mpm不存在
+import noppes.mpm.ModelPartConfig;
+                 ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\EquipSoundProperty.java:19: 错误: 程序包noppes.mpm不存在
+import noppes.mpm.MorePlayerModels;
+                 ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\EquipSoundProperty.java:20: 错误: 程序包noppes.mpm.client不存在
+import noppes.mpm.client.ClientProxy;
+                        ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\EquipSoundProperty.java:21: 错误: 程序包noppes.mpm.constants不存在
+import noppes.mpm.constants.EnumParts;
+                           ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\EquipSoundProperty.java:27: 错误: 找不到符号
+    public static ModelPartConfig getMpmconfig(ModelPart modelPart) {
+                  ^
+  符号:   类 ModelPartConfig
+  位置: 类 EquipSoundProperty
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\GeoArmorBase.java:21: 错误: 程序包software.bernie.geckolib.core不存在
+import software.bernie.geckolib.core.Animatable;
+                                    ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\GeoArmorBase.java:22: 错误: 程序包software.bernie.geckolib.core.manager不存在
+import software.bernie.geckolib.core.manager.AnimationData;
+                                            ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\GeoArmorBase.java:23: 错误: 程序包software.bernie.geckolib.core.manager不存在
+import software.bernie.geckolib.core.manager.AnimationFactory;
+                                            ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\GeoArmorBase.java:24: 错误: 程序包software.bernie.geckolib.item不存在
+import software.bernie.geckolib.item.GeoArmorItem;
+                                    ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\GeoArmorBase.java:28: 错误: 找不到符号
+extends GeoArmorItem
+        ^
+  符号: 类 GeoArmorItem
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\GeoArmorBase.java:29: 错误: 找不到符号
+implements Animatable {
+           ^
+  符号: 类 Animatable
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\GeoArmorBase.java:30: 错误: 找不到符号
+    public AnimationFactory factory = GeckoLibUtil.createFactory((Animatable)this);
+           ^
+  符号:   类 AnimationFactory
+  位置: 类 GeoArmorBase
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\GeoArmorBase.java:38: 错误: 找不到符号
+    public void registerControllers(AnimationData animationData) {
+                                    ^
+  符号:   类 AnimationData
+  位置: 类 GeoArmorBase
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\GeoArmorBase.java:45: 错误: 找不到符号
+    public AnimationFactory getFactory() {
+           ^
+  符号:   类 AnimationFactory
+  位置: 类 GeoArmorBase
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\KeyPredicate.java:27: 错误: 程序包com.dev.am.mod.gamerule不存在
+import com.dev.am.mod.gamerule.NoRpImmunityTimeSeconds;
+                              ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\KeyPredicate.java:28: 错误: 程序包com.dev.am.mod.gamerule不存在
+import com.dev.am.mod.gamerule.NoRpResetTimeSeconds;
+                              ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\KeyPredicate.java:29: 错误: 程序包com.dev.am.mod.gamerule不存在
+import com.dev.am.mod.gamerule.NoRpThinkingTimeSeconds;
+                              ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\KeyPredicate.java:30: 错误: 程序包com.dev.am.mod.gamerule不存在
+import com.dev.am.mod.gamerule.NorpUntiesPlayersAfter2ndRun;
+                              ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageManager.java:405: 错误: 找不到符号
+    public static InteractionResult checkFinishedUntying(Player player, LivingEntity livingEntity, aG aG2) {
+                                                                                                   ^
+  符号:   类 aG
+  位置: 类 bx
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\LegBindLogic.java:48: 错误: 找不到符号
+    private final i_0 direction;
+                  ^
+  符号:   类 i_0
+  位置: 类 bo
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\LegBindLogic.java:55: 错误: 找不到符号
+    public bo(boolean bl2, i_0 i_02) {
+                           ^
+  符号:   类 i_0
+  位置: 类 bo
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\TyingProgress.java:48: 错误: 找不到符号
+import net.minecraftforge.client.event.EntityViewRenderEvent;
+                                      ^
+  符号:   类 EntityViewRenderEvent
+  位置: 程序包 net.minecraftforge.client.event
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\TyingProgress.java:51: 错误: 找不到符号
+import net.minecraftforge.event.entity.EntityJoinWorldEvent;
+                                      ^
+  符号:   类 EntityJoinWorldEvent
+  位置: 程序包 net.minecraftforge.event.entity
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\TyingProgress.java:52: 错误: 找不到符号
+import net.minecraftforge.event.entity.EntityLeaveWorldEvent;
+                                      ^
+  符号:   类 EntityLeaveWorldEvent
+  位置: 程序包 net.minecraftforge.event.entity
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\TyingProgress.java:69: 错误: 找不到符号
+    public static void playerJoin(EntityJoinWorldEvent entityJoinWorldEvent) {
+                                  ^
+  符号:   类 EntityJoinWorldEvent
+  位置: 类 TyingProgress
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\TyingProgress.java:78: 错误: 程序包EntityViewRenderEvent不存在
+    public static void cameraEvent(EntityViewRenderEvent.CameraSetup cameraSetup) {
+                                                        ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\TyingProgress.java:106: 错误: 找不到符号
+    public static void playerLeft(EntityLeaveWorldEvent entityLeaveWorldEvent) {
+                                  ^
+  符号:   类 EntityLeaveWorldEvent
+  位置: 类 TyingProgress
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\TyingProgress.java:115: 错误: 找不到符号
+    public static void onScroll(InputEvent.MouseScrollEvent mouseScrollEvent) {
+                                          ^
+  符号:   类 MouseScrollEvent
+  位置: 类 InputEvent
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\UntyingProgress.java:36: 错误: 程序包software.bernie.geckolib.renderers.geo不存在
+import software.bernie.geckolib.renderers.geo.GeoArmorRenderer;
+                                             ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\ClientPacketListenerMix.java:3: 错误: 找不到符号
+import com.dev.am.immersive_restraints.aw;
+                                      ^
+  符号:   类 aw
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\CuriosScreenMix.java:3: 错误: 找不到符号
+import com.dev.am.immersive_restraints.aA;
+                                      ^
+  符号:   类 aA
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\CuriosScreenMix.java:4: 错误: 找不到符号
+import com.dev.am.immersive_restraints.Abduction;
+                                      ^
+  符号:   类 Abduction
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\CuriosScreenMix.java:5: 错误: 找不到符号
+import net.minecraft.client.gui.components.Widget;
+                                          ^
+  符号:   类 Widget
+  位置: 程序包 net.minecraft.client.gui.components
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\IBendableMix.java:3: 错误: 程序包io.github.kosmx.bendylib.impl不存在
+import io.github.kosmx.bendylib.impl.BendableCuboid;
+                                    ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\MpmCompatModelRendererMix.java:3: 错误: 找不到符号
+import com.dev.am.immersive_restraints.ak;
+                                      ^
+  符号:   类 ak
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\RenderButtonMix.java:3: 错误: 找不到符号
+import com.dev.am.immersive_restraints.aA;
+                                      ^
+  符号:   类 aA
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\compat\RenderButtonMix.java:11: 错误: 找不到符号
+public abstract class RenderButtonMix implements aA {
+                                                 ^
+  符号: 类 aA
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\EntityRenderDispatcherMix.java:3: 错误: 找不到符号
+import com.dev.am.immersive_restraints.aC;
+                                      ^
+  符号:   类 aC
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\EntityRenderDispatcherMix.java:4: 错误: 找不到符号
+import com.dev.am.immersive_restraints.bl;
+                                      ^
+  符号:   类 bl
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\EntityRenderDispatcherMix.java:5: 错误: 找不到符号
+import com.dev.am.immersive_restraints.bm;
+                                      ^
+  符号:   类 bm
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\EntityRenderDispatcherMix.java:6: 错误: 找不到符号
+import com.dev.am.immersive_restraints.bo;
+                                      ^
+  符号:   类 bo
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\GameRendererMix.java:3: 错误: 找不到符号
+import com.dev.am.immersive_restraints.bl;
+                                      ^
+  符号:   类 bl
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\GameRendererMix.java:4: 错误: 找不到符号
+import com.dev.am.immersive_restraints.bm;
+                                      ^
+  符号:   类 bm
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\GameRendererMix.java:5: 错误: 找不到符号
+import com.dev.am.immersive_restraints.br;
+                                      ^
+  符号:   类 br
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\GameRendererMix.java:6: 错误: 程序包com.llamalad7.mixinextras.sugar不存在
+import com.llamalad7.mixinextras.sugar.Local;
+                                      ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\HumanoidArmorLayerMix.java:3: 错误: 找不到符号
+import com.dev.am.immersive_restraints.aC;
+                                      ^
+  符号:   类 aC
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\HumanoidArmorLayerMix.java:4: 错误: 找不到符号
+import com.dev.am.immersive_restraints.aP;
+                                      ^
+  符号:   类 aP
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\HumanoidArmorLayerMix.java:5: 错误: 找不到符号
+import com.dev.am.immersive_restraints.bm;
+                                      ^
+  符号:   类 bm
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\HumanoidModelMix.java:3: 错误: 找不到符号
+import com.dev.am.immersive_restraints.bm;
+                                      ^
+  符号:   类 bm
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\InGameUiMix.java:3: 错误: 找不到符号
+import com.dev.am.immersive_restraints.N;
+                                      ^
+  符号:   类 N
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\InGameUiMix.java:4: 错误: 找不到符号
+import com.dev.am.immersive_restraints.bi;
+                                      ^
+  符号:   类 bi
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\InGameUiMix.java:5: 错误: 找不到符号
+import com.dev.am.immersive_restraints.w;
+                                      ^
+  符号:   类 w
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\InGameUiMix.java:11: 错误: 找不到符号
+import net.minecraftforge.client.gui.ForgeIngameGui;
+                                    ^
+  符号:   类 ForgeIngameGui
+  位置: 程序包 net.minecraftforge.client.gui
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\InGameUiMix.java:59: 错误: 程序包w不存在
+  public void abduction$renderTyingBar(PoseStack paramPoseStack, int paramInt, w.a parama) {
+                                                                                ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mixin\client_mixins\IntegratedServerMix.java:3: 错误: 找不到符号
+import com.dev.am.immersive_restraints.bm;
+                                      ^
+  符号:   类 bm
+  位置: 程序包 com.dev.am.immersive_restraints
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\command\TalkAreaCommand.java:79: 警告: [removal] EntityEvent 中的 Size 已过时, 且标记为待删除
+    public void entitySize(EntityEvent.Size size) {
+                                      ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\EntityEventHandler.java:156: 警告: [removal] ICuriosHelper 中的 findCurios(LivingEntity,Predicate<ItemStack>) 已过时, 且标记为待删除
+        return CuriosApi.getCuriosHelper().findCurios(livingEntity, itemStack -> itemStack.getItem() instanceof BondageItem);
+                                          ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\EntityEventHandler.java:312: 警告: [removal] top.theillusivec4.curios.api.type.util 中的 ICuriosHelper 已过时, 且标记为待删除
+        aF2.getCurio(itemStack).ifPresent(arg_0 -> EntityEventHandler.lambda$canPutBondage$9((ICuriosHelper)aF2, livingEntity, itemStack, atomicReference, arg_0));
+                                                                                              ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\EntityEventHandler.java:317: 警告: [removal] top.theillusivec4.curios.api.type.util 中的 ICuriosHelper 已过时, 且标记为待删除
+        ICuriosHelper iCuriosHelper = CuriosApi.getCuriosHelper();
+        ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\EntityEventHandler.java:318: 警告: [removal] ICuriosHelper 中的 getCurio(ItemStack) 已过时, 且标记为待删除
+        iCuriosHelper.getCurio(itemStack).ifPresent(iCurio -> iCuriosHelper.getCuriosHandler(livingEntity).ifPresent(iCuriosItemHandler -> {
+                     ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\EntityEventHandler.java:318: 警告: [removal] ICuriosHelper 中的 getCuriosHandler(LivingEntity) 已过时, 且标记为待删除
+        iCuriosHelper.getCurio(itemStack).ifPresent(iCurio -> iCuriosHelper.getCuriosHandler(livingEntity).ifPresent(iCuriosItemHandler -> {
+                                                                           ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\EntityEventHandler.java:333: 警告: [removal] ICuriosHelper 中的 isStackValid(SlotContext,ItemStack) 已过时, 且标记为待删除
+                    if (result == Event.Result.DENY || result != Event.Result.ALLOW && !iCuriosHelper.isStackValid(slotContext, itemStack) || !(bl3 = (itemStack3 = iDynamicStackHandler.getStackInSlot(i)).isEmpty()) && !bl2 && !EntityEventHandler.canBeSwapped(itemStack3, itemStack)) continue;
+                                                                                                     ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\EntityEventHandler.java:640: 警告: [removal] top.theillusivec4.curios.api.type.util 中的 ICuriosHelper 已过时, 且标记为待删除
+    private static /* synthetic */ void lambda$canPutBondage$9(ICuriosHelper iCuriosHelper, LivingEntity livingEntity, ItemStack itemStack, AtomicReference atomicReference, ICurio iCurio) {
+                                                               ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\EntityEventHandler.java:641: 警告: [removal] ICuriosHelper 中的 getCuriosHandler(LivingEntity) 已过时, 且标记为待删除
+        iCuriosHelper.getCuriosHandler(livingEntity).ifPresent(iCuriosItemHandler -> {
+                     ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\event\EntityEventHandler.java:652: 警告: [removal] ICuriosHelper 中的 isStackValid(SlotContext,ItemStack) 已过时, 且标记为待删除
+                    if (result == Event.Result.DENY || result != Event.Result.ALLOW && (!iCuriosHelper.isStackValid(slotContext, itemStack) || !iCurio.canEquip(slotContext))) continue;
+                                                                                                      ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\SoundProperty.java:57: 警告: [removal] top.theillusivec4.curios.api.type.util 中的 ICuriosHelper 已过时, 且标记为待删除
+        ICuriosHelper iCuriosHelper = CuriosApi.getCuriosHelper();
+        ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\SoundProperty.java:62: 警告: [removal] CuriosApi 中的 getSlotHelper() 已过时, 且标记为待删除
+                Collection collection2 = CuriosApi.getSlotHelper().getSlotTypes();
+                                                  ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\SoundProperty.java:62: 警告: [removal] ISlotHelper 中的 getSlotTypes() 已过时, 且标记为待删除
+                Collection collection2 = CuriosApi.getSlotHelper().getSlotTypes();
+                                                                  ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\item\SoundProperty.java:66: 警告: [removal] ICuriosHelper 中的 isStackValid(SlotContext,ItemStack) 已过时, 且标记为待删除
+                    if (!(iSlotType instanceof SlotType) || hashSet.contains(string = (slotType = (SlotType)iSlotType).getIdentifier()) || !iCuriosHelper.isStackValid(new SlotContext(string, (LivingEntity)serverPlayer, i, false, true), itemStack2)) continue;
+                                                                                                                                                         ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageManager.java:147: 警告: [removal] ICuriosHelper 中的 findCurios(LivingEntity,Predicate<ItemStack>) 已过时, 且标记为待删除
+        return CuriosApi.getCuriosHelper().findCurios(livingEntity, itemStack -> itemStack.getItem() instanceof aK);
+                                          ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageManager.java:303: 警告: [removal] top.theillusivec4.curios.api.type.util 中的 ICuriosHelper 已过时, 且标记为待删除
+        aF2.getCurio(itemStack).ifPresent(arg_0 -> bx.lambda$canPutBondage$9((ICuriosHelper)aF2, livingEntity, itemStack, atomicReference, arg_0));
+                                                                              ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageManager.java:308: 警告: [removal] top.theillusivec4.curios.api.type.util 中的 ICuriosHelper 已过时, 且标记为待删除
+        ICuriosHelper iCuriosHelper = CuriosApi.getCuriosHelper();
+        ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageManager.java:309: 警告: [removal] ICuriosHelper 中的 getCurio(ItemStack) 已过时, 且标记为待删除
+        iCuriosHelper.getCurio(itemStack).ifPresent(iCurio -> iCuriosHelper.getCuriosHandler(livingEntity).ifPresent(iCuriosItemHandler -> {
+                     ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageManager.java:309: 警告: [removal] ICuriosHelper 中的 getCuriosHandler(LivingEntity) 已过时, 且标记为待删除
+        iCuriosHelper.getCurio(itemStack).ifPresent(iCurio -> iCuriosHelper.getCuriosHandler(livingEntity).ifPresent(iCuriosItemHandler -> {
+                                                                           ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageManager.java:324: 警告: [removal] ICuriosHelper 中的 isStackValid(SlotContext,ItemStack) 已过时, 且标记为待删除
+                    if (result == Event.Result.DENY || result != Event.Result.ALLOW && !iCuriosHelper.isStackValid(slotContext, itemStack) || !(bl3 = (itemStack3 = iDynamicStackHandler.getStackInSlot(i)).isEmpty()) && !bl2 && !bx.canBeSwapped(itemStack3, itemStack)) continue;
+                                                                                                     ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageManager.java:631: 警告: [removal] top.theillusivec4.curios.api.type.util 中的 ICuriosHelper 已过时, 且标记为待删除
+    private static /* synthetic */ void lambda$canPutBondage$9(ICuriosHelper iCuriosHelper, LivingEntity livingEntity, ItemStack itemStack, AtomicReference atomicReference, ICurio iCurio) {
+                                                               ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageManager.java:632: 警告: [removal] ICuriosHelper 中的 getCuriosHandler(LivingEntity) 已过时, 且标记为待删除
+        iCuriosHelper.getCuriosHandler(livingEntity).ifPresent(iCuriosItemHandler -> {
+                     ^
+C:\Users\小亮傻逼\Desktop\ImmersiveRestraints-1.20.1\src\main\java\com\dev\am\immersive_restraints\mechanic\BondageManager.java:643: 警告: [removal] ICuriosHelper 中的 isStackValid(SlotContext,ItemStack) 已过时, 且标记为待删除
+                    if (result == Event.Result.DENY || result != Event.Result.ALLOW && (!iCuriosHelper.isStackValid(slotContext, itemStack) || !iCurio.canEquip(slotContext))) continue;
+                                                                                                      ^
+注: 某些输入文件使用或覆盖了已过时的 API。
+注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+注: 某些输入文件使用了未经检查或不安全的操作。
+注: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+注: 某些消息已经过简化; 请使用 -Xdiags:verbose 重新编译以获得完整输出
+100 个错误
+23 个警告
+仅显示前 100 个错误（共 1674 个）；若要查看更多错误，请使用 -Xmaxerrs
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 12s
