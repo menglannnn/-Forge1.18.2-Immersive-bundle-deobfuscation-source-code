@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "am:purple_duct_tape"
+    }
+  ],
+  "result": {
+    "item": "am:purple_duct_tape_gag",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "###",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result": {
+    "item": "am:lime_cloth_blindfold",
+    "count": 4
+  }
+}

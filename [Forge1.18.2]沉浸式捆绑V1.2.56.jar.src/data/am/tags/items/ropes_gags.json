@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "am:white_ropes_gag",
+    "am:orange_ropes_gag",
+    "am:magenta_ropes_gag",
+    "am:light_blue_ropes_gag",
+    "am:yellow_ropes_gag",
+    "am:lime_ropes_gag",
+    "am:pink_ropes_gag",
+    "am:gray_ropes_gag",
+    "am:light_gray_ropes_gag",
+    "am:cyan_ropes_gag",
+    "am:purple_ropes_gag",
+    "am:blue_ropes_gag",
+    "am:brown_ropes_gag",
+    "am:green_ropes_gag",
+    "am:red_ropes_gag",
+    "am:black_ropes_gag"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ! ",
+    " X ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "!": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "am:steel_key",
+    "count": 1
+  }
+}

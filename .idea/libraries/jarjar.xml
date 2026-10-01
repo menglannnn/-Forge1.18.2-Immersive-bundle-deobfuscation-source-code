@@ -1,0 +1,65 @@
+<component name="libraryTable">
+  <library name="jarjar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/jackson-core-2.14.2.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-handler-proxy-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-transport-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/error_prone_annotations-2.4.0.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/model-gap-fix-676136-4024855.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/discord4j-voice-3.2.5.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/reactor-core-3.4.22.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/jackson-databind-2.14.2.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/geckolib-388172-4181370.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/discord4j-common-3.2.5.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/playeranimationlib-658587-4418152.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/checker-qual-3.8.0.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-codec-http2-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-codec-socks-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-buffer-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/jackson-annotations-2.12.7.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-codec-dns-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/Servicer-1.0.3.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/stores-api-3.2.2.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/bendy-lib-forge-2.1.3-test2.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/discord-json-1.6.17.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/rhino-1.7.14.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/jackson-annotations-2.12.4.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/reactor-netty-http-1.0.33.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/reactor-core-3.4.28.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/jackson-databind-2.12.7.1.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/simple-fsm-1.0.1.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-resolver-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/discord-json-api-1.6.17.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-resolver-dns-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/reactor-extra-3.4.10.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/jackson-databind-2.12.4.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-resolver-dns-classes-macos-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/jackson-datatype-jsr310-2.14.2.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-codec-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-transport-native-unix-common-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-common-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-handler-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/reactor-core-3.4.30.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/jackson-datatype-jdk8-2.14.2.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/discord4j-rest-3.2.5.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-transport-native-epoll-4.1.93.Final-linux-x86_64.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-transport-classes-epoll-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/reactor-netty-core-1.0.33.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/discord4j-core-3.2.5.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/jackson-core-2.12.7.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-codec-http-4.1.93.Final.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/mixinextras-forge-0.3.5.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/caffeine-2.8.8.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/stores-jdk-3.2.2.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/discord4j-gateway-3.2.5.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/jackson-core-2.12.4.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/netty-resolver-dns-native-macos-4.1.93.Final-osx-x86_64.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/jackson-datatype-jdk8-2.12.7.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/curios-309927-4590652.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/reactive-streams-1.0.4.jar.src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/[Forge1.18.2]沉浸式捆绑V1.2.56.jar.src/META-INF/jarjar/jackson-annotations-2.14.2.jar.src.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

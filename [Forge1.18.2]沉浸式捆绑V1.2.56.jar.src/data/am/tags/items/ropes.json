@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "am:white_ropes",
+    "am:orange_ropes",
+    "am:magenta_ropes",
+    "am:light_blue_ropes",
+    "am:yellow_ropes",
+    "am:lime_ropes",
+    "am:pink_ropes",
+    "am:gray_ropes",
+    "am:light_gray_ropes",
+    "am:cyan_ropes",
+    "am:purple_ropes",
+    "am:blue_ropes",
+    "am:brown_ropes",
+    "am:green_ropes",
+    "am:red_ropes",
+    "am:black_ropes"
+  ]
+}

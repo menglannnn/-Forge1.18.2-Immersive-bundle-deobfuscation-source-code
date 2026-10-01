@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "am:block/black_padded_block"
+    }
+  }
+}

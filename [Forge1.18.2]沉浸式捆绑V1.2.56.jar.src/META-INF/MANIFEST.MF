@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Specification-Title: am
+Specification-Vendor: asareus
+Specification-Version: 1
+Implementation-Title: Abduction
+Implementation-Version: 1.2.56
+Implementation-Vendor: asareus
+Implementation-Timestamp: 2024-05-14T16:17:55+0300
+TweakClass: org.spongepowered.asm.launch.MixinTweaker
+TweakOrder: 0
+MixinConfigs: mixins.am.json
+FMLAT: accesstransformer.cfg
+

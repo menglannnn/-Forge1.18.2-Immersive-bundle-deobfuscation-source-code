@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:pink_wool"
+  },
+  "result": "am:pink_padded_block",
+  "experience": 0.35,
+  "cookingtime": 200
+}

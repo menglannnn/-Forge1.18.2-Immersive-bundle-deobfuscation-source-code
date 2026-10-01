@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "am:pink_ropes_gag"
+    },
+    "X": {
+      "item": "am:pink_ropes"
+    }
+  },
+  "result": {
+    "item": "am:pink_shibari",
+    "count": 4
+  }
+}

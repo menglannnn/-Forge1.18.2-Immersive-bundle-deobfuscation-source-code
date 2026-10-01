@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "am:white_cleave_gag",
+    "am:orange_cleave_gag",
+    "am:magenta_cleave_gag",
+    "am:light_blue_cleave_gag",
+    "am:yellow_cleave_gag",
+    "am:lime_cleave_gag",
+    "am:pink_cleave_gag",
+    "am:gray_cleave_gag",
+    "am:light_gray_cleave_gag",
+    "am:cyan_cleave_gag",
+    "am:purple_cleave_gag",
+    "am:blue_cleave_gag",
+    "am:brown_cleave_gag",
+    "am:green_cleave_gag",
+    "am:red_cleave_gag",
+    "am:black_cleave_gag"
+  ]
+}

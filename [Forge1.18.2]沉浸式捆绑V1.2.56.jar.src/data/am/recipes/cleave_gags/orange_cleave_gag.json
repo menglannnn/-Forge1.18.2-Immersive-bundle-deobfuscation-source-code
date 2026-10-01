@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "am:orange_cloth_gag"
+    }
+  ],
+  "result": {
+    "item": "am:orange_cleave_gag",
+    "count": 1
+  }
+}

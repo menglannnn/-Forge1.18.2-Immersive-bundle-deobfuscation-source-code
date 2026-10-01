@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "am:steel_key"
+    },
+    {
+      "item": "am:handcuffs"
+    }
+  ],
+  "result": {
+    "item": "am:handcuffs"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "am:shibaris"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lead",
+    "count": 4
+  }
+}

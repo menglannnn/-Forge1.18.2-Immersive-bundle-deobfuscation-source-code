@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "am:black_ropes_gag"
+    },
+    "X": {
+      "item": "am:black_ropes"
+    }
+  },
+  "result": {
+    "item": "am:black_shibari",
+    "count": 4
+  }
+}

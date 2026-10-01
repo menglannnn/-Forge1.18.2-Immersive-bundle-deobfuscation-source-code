@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "am:magenta_padded_block"
+    }
+  },
+  "result": {
+    "item": "am:magenta_padded_pane",
+    "count": 2
+  }
+}

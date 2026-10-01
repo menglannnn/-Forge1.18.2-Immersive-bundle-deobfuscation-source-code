@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "am:white_padded_block",
+    "am:orange_padded_block",
+    "am:magenta_padded_block",
+    "am:light_blue_padded_block",
+    "am:yellow_padded_block",
+    "am:lime_padded_block",
+    "am:pink_padded_block",
+    "am:gray_padded_block",
+    "am:light_gray_padded_block",
+    "am:cyan_padded_block",
+    "am:purple_padded_block",
+    "am:blue_padded_block",
+    "am:brown_padded_block",
+    "am:green_padded_block",
+    "am:red_padded_block",
+    "am:black_padded_block"
+  ]
+}

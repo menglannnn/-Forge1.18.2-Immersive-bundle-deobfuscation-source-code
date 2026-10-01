@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "am:leather_straps"
+    },
+    "X": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "result": {
+    "item": "am:latex_sack",
+    "count": 1
+  }
+}

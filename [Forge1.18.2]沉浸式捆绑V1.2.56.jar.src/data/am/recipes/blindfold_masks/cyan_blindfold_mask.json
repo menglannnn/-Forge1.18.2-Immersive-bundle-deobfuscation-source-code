@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "X#X",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "am:cyan_cloth_blindfold"
+    },
+    "X": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "am:cyan_blindfold_mask",
+    "count": 1
+  }
+}

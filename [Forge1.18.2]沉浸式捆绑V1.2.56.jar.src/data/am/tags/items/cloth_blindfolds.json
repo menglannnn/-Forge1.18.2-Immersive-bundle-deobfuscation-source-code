@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "am:white_cloth_blindfold",
+    "am:orange_cloth_blindfold",
+    "am:magenta_cloth_blindfold",
+    "am:light_blue_cloth_blindfold",
+    "am:yellow_cloth_blindfold",
+    "am:lime_cloth_blindfold",
+    "am:pink_cloth_blindfold",
+    "am:gray_cloth_blindfold",
+    "am:light_gray_cloth_blindfold",
+    "am:cyan_cloth_blindfold",
+    "am:purple_cloth_blindfold",
+    "am:blue_cloth_blindfold",
+    "am:brown_cloth_blindfold",
+    "am:green_cloth_blindfold",
+    "am:red_cloth_blindfold",
+    "am:black_cloth_blindfold"
+  ]
+}

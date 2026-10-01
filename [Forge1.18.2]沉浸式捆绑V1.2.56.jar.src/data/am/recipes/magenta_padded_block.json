@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:magenta_wool"
+  },
+  "result": "am:magenta_padded_block",
+  "experience": 0.35,
+  "cookingtime": 200
+}

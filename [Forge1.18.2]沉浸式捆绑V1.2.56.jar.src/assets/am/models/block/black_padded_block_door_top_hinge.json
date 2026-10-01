@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "bottom": "am:block/black_padded_block",
+    "top": "am:block/black_padded_block"
+  }
+}

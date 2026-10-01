@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "am:yellow_padded_block"
+    }
+  },
+  "result": {
+    "item": "am:yellow_padded_block_stairs",
+    "count": 4
+  }
+}

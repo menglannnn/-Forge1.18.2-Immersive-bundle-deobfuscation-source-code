@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "am:white_shibari",
+    "am:orange_shibari",
+    "am:magenta_shibari",
+    "am:light_blue_shibari",
+    "am:yellow_shibari",
+    "am:lime_shibari",
+    "am:pink_shibari",
+    "am:gray_shibari",
+    "am:light_gray_shibari",
+    "am:cyan_shibari",
+    "am:purple_shibari",
+    "am:blue_shibari",
+    "am:brown_shibari",
+    "am:green_shibari",
+    "am:red_shibari",
+    "am:black_shibari"
+  ]
+}

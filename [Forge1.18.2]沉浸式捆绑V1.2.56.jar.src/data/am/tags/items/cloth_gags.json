@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "am:white_cloth_gag",
+    "am:orange_cloth_gag",
+    "am:magenta_cloth_gag",
+    "am:light_blue_cloth_gag",
+    "am:yellow_cloth_gag",
+    "am:lime_cloth_gag",
+    "am:pink_cloth_gag",
+    "am:gray_cloth_gag",
+    "am:light_gray_cloth_gag",
+    "am:cyan_cloth_gag",
+    "am:purple_cloth_gag",
+    "am:blue_cloth_gag",
+    "am:brown_cloth_gag",
+    "am:green_cloth_gag",
+    "am:red_cloth_gag",
+    "am:black_cloth_gag"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "am:brown_ropes"
+    }
+  ],
+  "result": {
+    "item": "am:brown_ropes_gag",
+    "count": 4
+  }
+}

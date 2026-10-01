@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "A A",
+    "B B"
+  ],
+  "key": {
+    "A": {
+      "item": "am:leather_straps"
+    },
+    "B": [
+      {
+        "tag": "minecraft:wool"
+      },
+      {
+        "tag": "am:padded_blocks"
+      }
+    ]
+  },
+  "result": {
+    "item": "am:mittens"
+  }
+}

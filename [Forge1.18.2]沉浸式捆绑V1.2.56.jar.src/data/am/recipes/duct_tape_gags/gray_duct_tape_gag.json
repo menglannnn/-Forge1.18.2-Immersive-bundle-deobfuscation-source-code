@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "am:gray_duct_tape"
+    }
+  ],
+  "result": {
+    "item": "am:gray_duct_tape_gag",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "am:leather_straps"
+    },
+    {
+      "item": "am:white_blindfold_mask"
+    },
+    {
+      "item": "am:tube_gag"
+    }
+  ],
+  "result": {
+    "item": "am:medical_gag",
+    "count": 1
+  }
+}

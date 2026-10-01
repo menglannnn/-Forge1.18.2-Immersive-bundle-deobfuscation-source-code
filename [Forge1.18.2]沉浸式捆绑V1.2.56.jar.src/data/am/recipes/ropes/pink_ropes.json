@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    " # ",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "result": {
+    "item": "am:pink_ropes",
+    "count": 4
+  }
+}

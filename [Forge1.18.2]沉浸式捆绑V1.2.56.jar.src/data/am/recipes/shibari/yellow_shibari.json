@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "am:yellow_ropes_gag"
+    },
+    "X": {
+      "item": "am:yellow_ropes"
+    }
+  },
+  "result": {
+    "item": "am:yellow_shibari",
+    "count": 4
+  }
+}

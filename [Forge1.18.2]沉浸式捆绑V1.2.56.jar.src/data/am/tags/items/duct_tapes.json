@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "am:black_duct_tape",
+    "am:blue_duct_tape",
+    "am:brown_duct_tape",
+    "am:caution_duct_tape",
+    "am:clear_duct_tape",
+    "am:cyan_duct_tape",
+    "am:gray_duct_tape",
+    "am:green_duct_tape",
+    "am:light_blue_duct_tape",
+    "am:light_gray_duct_tape",
+    "am:lime_duct_tape",
+    "am:magenta_duct_tape",
+    "am:orange_duct_tape",
+    "am:pink_duct_tape",
+    "am:purple_duct_tape",
+    "am:red_duct_tape",
+    "am:white_duct_tape",
+    "am:yellow_duct_tape"
+  ]
+}

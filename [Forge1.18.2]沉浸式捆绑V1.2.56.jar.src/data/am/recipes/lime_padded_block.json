@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:lime_wool"
+  },
+  "result": "am:lime_padded_block",
+  "experience": 0.35,
+  "cookingtime": 200
+}

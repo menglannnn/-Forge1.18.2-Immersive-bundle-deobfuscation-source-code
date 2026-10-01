@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:red_wool"
+  },
+  "result": "am:red_padded_block",
+  "experience": 0.35,
+  "cookingtime": 200
+}

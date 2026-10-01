@@ -1,0 +1,376 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "io.github.llamalad7",
+        "artifact": "mixinextras-forge"
+      },
+      "version": {
+        "range": "[0.3.5,)",
+        "artifactVersion": "0.3.5"
+      },
+      "path": "META-INF/jarjar/mixinextras-forge-0.3.5.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "curse.maven",
+        "artifact": "geckolib-388172"
+      },
+      "version": {
+        "range": "[4181370]",
+        "artifactVersion": "4181370"
+      },
+      "path": "META-INF/jarjar/geckolib-388172-4181370.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "curse.maven",
+        "artifact": "model-gap-fix-676136"
+      },
+      "version": {
+        "range": "[4024855]",
+        "artifactVersion": "4024855"
+      },
+      "path": "META-INF/jarjar/model-gap-fix-676136-4024855.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "curse.maven",
+        "artifact": "playeranimationlib-658587"
+      },
+      "version": {
+        "range": "[4418152]",
+        "artifactVersion": "4418152"
+      },
+      "path": "META-INF/jarjar/playeranimationlib-658587-4418152.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "curse.maven",
+        "artifact": "curios-309927"
+      },
+      "version": {
+        "range": "[4590652]",
+        "artifactVersion": "4590652"
+      },
+      "path": "META-INF/jarjar/curios-309927-4590652.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "io.github.kosmx.bendy-lib",
+        "artifact": "bendy-lib-forge"
+      },
+      "version": {
+        "range": "[2.1,2.2)",
+        "artifactVersion": "2.1.3-test2"
+      },
+      "path": "META-INF/jarjar/bendy-lib-forge-2.1.3-test2.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.github.ben-manes.caffeine",
+        "artifact": "caffeine"
+      },
+      "version": {
+        "range": "[2.8.8]",
+        "artifactVersion": "2.8.8"
+      },
+      "path": "META-INF/jarjar/caffeine-2.8.8.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "org.checkerframework",
+        "artifact": "checker-qual"
+      },
+      "version": {
+        "range": "[3.8.0]",
+        "artifactVersion": "3.8.0"
+      },
+      "path": "META-INF/jarjar/checker-qual-3.8.0.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.discord4j",
+        "artifact": "discord-json"
+      },
+      "version": {
+        "range": "[1.6.17]",
+        "artifactVersion": "1.6.17"
+      },
+      "path": "META-INF/jarjar/discord-json-1.6.17.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.discord4j",
+        "artifact": "discord-json-api"
+      },
+      "version": {
+        "range": "[1.6.17]",
+        "artifactVersion": "1.6.17"
+      },
+      "path": "META-INF/jarjar/discord-json-api-1.6.17.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.discord4j",
+        "artifact": "discord4j-common"
+      },
+      "version": {
+        "range": "[3.2.5]",
+        "artifactVersion": "3.2.5"
+      },
+      "path": "META-INF/jarjar/discord4j-common-3.2.5.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.discord4j",
+        "artifact": "discord4j-core"
+      },
+      "version": {
+        "range": "[3.2.5]",
+        "artifactVersion": "3.2.5"
+      },
+      "path": "META-INF/jarjar/discord4j-core-3.2.5.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.discord4j",
+        "artifact": "discord4j-gateway"
+      },
+      "version": {
+        "range": "[3.2.5]",
+        "artifactVersion": "3.2.5"
+      },
+      "path": "META-INF/jarjar/discord4j-gateway-3.2.5.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.discord4j",
+        "artifact": "discord4j-rest"
+      },
+      "version": {
+        "range": "[3.2.5]",
+        "artifactVersion": "3.2.5"
+      },
+      "path": "META-INF/jarjar/discord4j-rest-3.2.5.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.discord4j",
+        "artifact": "discord4j-voice"
+      },
+      "version": {
+        "range": "[3.2.5]",
+        "artifactVersion": "3.2.5"
+      },
+      "path": "META-INF/jarjar/discord4j-voice-3.2.5.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.google.errorprone",
+        "artifact": "error_prone_annotations"
+      },
+      "version": {
+        "range": "[2.4.0]",
+        "artifactVersion": "2.4.0"
+      },
+      "path": "META-INF/jarjar/error_prone_annotations-2.4.0.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.fasterxml.jackson.core",
+        "artifact": "jackson-annotations"
+      },
+      "version": {
+        "range": "[2.14.2]",
+        "artifactVersion": "2.14.2"
+      },
+      "path": "META-INF/jarjar/jackson-annotations-2.14.2.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.fasterxml.jackson.core",
+        "artifact": "jackson-core"
+      },
+      "version": {
+        "range": "[2.14.2]",
+        "artifactVersion": "2.14.2"
+      },
+      "path": "META-INF/jarjar/jackson-core-2.14.2.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.fasterxml.jackson.core",
+        "artifact": "jackson-databind"
+      },
+      "version": {
+        "range": "[2.14.2]",
+        "artifactVersion": "2.14.2"
+      },
+      "path": "META-INF/jarjar/jackson-databind-2.14.2.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.fasterxml.jackson.datatype",
+        "artifact": "jackson-datatype-jdk8"
+      },
+      "version": {
+        "range": "[2.14.2]",
+        "artifactVersion": "2.14.2"
+      },
+      "path": "META-INF/jarjar/jackson-datatype-jdk8-2.14.2.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.fasterxml.jackson.datatype",
+        "artifact": "jackson-datatype-jsr310"
+      },
+      "version": {
+        "range": "[2.14.2]",
+        "artifactVersion": "2.14.2"
+      },
+      "path": "META-INF/jarjar/jackson-datatype-jsr310-2.14.2.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "org.reactivestreams",
+        "artifact": "reactive-streams"
+      },
+      "version": {
+        "range": "[1.0.4]",
+        "artifactVersion": "1.0.4"
+      },
+      "path": "META-INF/jarjar/reactive-streams-1.0.4.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "io.projectreactor",
+        "artifact": "reactor-core"
+      },
+      "version": {
+        "range": "[3.4.30]",
+        "artifactVersion": "3.4.30"
+      },
+      "path": "META-INF/jarjar/reactor-core-3.4.30.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "io.projectreactor.addons",
+        "artifact": "reactor-extra"
+      },
+      "version": {
+        "range": "[3.4.10]",
+        "artifactVersion": "3.4.10"
+      },
+      "path": "META-INF/jarjar/reactor-extra-3.4.10.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "io.projectreactor.netty",
+        "artifact": "reactor-netty-core"
+      },
+      "version": {
+        "range": "[1.0.33]",
+        "artifactVersion": "1.0.33"
+      },
+      "path": "META-INF/jarjar/reactor-netty-core-1.0.33.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "io.projectreactor.netty",
+        "artifact": "reactor-netty-http"
+      },
+      "version": {
+        "range": "[1.0.33]",
+        "artifactVersion": "1.0.33"
+      },
+      "path": "META-INF/jarjar/reactor-netty-http-1.0.33.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.austinv11.servicer",
+        "artifact": "Servicer"
+      },
+      "version": {
+        "range": "[1.0.3]",
+        "artifactVersion": "1.0.3"
+      },
+      "path": "META-INF/jarjar/Servicer-1.0.3.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.discord4j",
+        "artifact": "simple-fsm"
+      },
+      "version": {
+        "range": "[1.0.1]",
+        "artifactVersion": "1.0.1"
+      },
+      "path": "META-INF/jarjar/simple-fsm-1.0.1.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.discord4j",
+        "artifact": "stores-api"
+      },
+      "version": {
+        "range": "[3.2.2]",
+        "artifactVersion": "3.2.2"
+      },
+      "path": "META-INF/jarjar/stores-api-3.2.2.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.discord4j",
+        "artifact": "stores-jdk"
+      },
+      "version": {
+        "range": "[3.2.2]",
+        "artifactVersion": "3.2.2"
+      },
+      "path": "META-INF/jarjar/stores-jdk-3.2.2.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "org.mozilla",
+        "artifact": "rhino"
+      },
+      "version": {
+        "range": "[1.7.14]",
+        "artifactVersion": "1.7.14"
+      },
+      "path": "META-INF/jarjar/rhino-1.7.14.jar",
+      "isObfuscated": false
+    }
+  ]
+}

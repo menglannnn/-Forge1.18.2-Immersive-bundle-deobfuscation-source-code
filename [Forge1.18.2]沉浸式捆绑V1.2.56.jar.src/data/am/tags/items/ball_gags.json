@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "am:white_ball_gag",
+    "am:orange_ball_gag",
+    "am:magenta_ball_gag",
+    "am:light_blue_ball_gag",
+    "am:yellow_ball_gag",
+    "am:lime_ball_gag",
+    "am:pink_ball_gag",
+    "am:gray_ball_gag",
+    "am:light_gray_ball_gag",
+    "am:cyan_ball_gag",
+    "am:purple_ball_gag",
+    "am:blue_ball_gag",
+    "am:brown_ball_gag",
+    "am:green_ball_gag",
+    "am:red_ball_gag",
+    "am:black_ball_gag"
+  ]
+}

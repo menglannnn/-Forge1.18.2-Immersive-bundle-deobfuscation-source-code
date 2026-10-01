@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "am:black_blindfold_mask",
+    "am:blue_blindfold_mask",
+    "am:brown_blindfold_mask",
+    "am:cyan_blindfold_mask",
+    "am:gray_blindfold_mask",
+    "am:green_blindfold_mask",
+    "am:light_blue_blindfold_mask",
+    "am:light_gray_blindfold_mask",
+    "am:lime_blindfold_mask",
+    "am:magenta_blindfold_mask",
+    "am:orange_blindfold_mask",
+    "am:pink_blindfold_mask",
+    "am:purple_blindfold_mask",
+    "am:red_blindfold_mask",
+    "am:white_blindfold_mask",
+    "am:yellow_blindfold_mask"
+  ]
+}

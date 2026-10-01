@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "am:light_gray_ropes_gag"
+    },
+    "X": {
+      "item": "am:light_gray_ropes"
+    }
+  },
+  "result": {
+    "item": "am:light_gray_shibari",
+    "count": 4
+  }
+}

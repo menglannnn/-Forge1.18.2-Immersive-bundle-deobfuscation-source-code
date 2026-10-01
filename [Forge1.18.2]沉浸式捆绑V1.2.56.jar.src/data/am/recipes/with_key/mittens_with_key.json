@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "am:steel_key"
+    },
+    {
+      "item": "am:mittens"
+    }
+  ],
+  "result": {
+    "item": "am:mittens"
+  }
+}

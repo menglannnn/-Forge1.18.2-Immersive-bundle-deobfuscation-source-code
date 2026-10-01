@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "am:brown_padded_block_slab"
+    ]
+  },
+  "criteria": {
+    "has_brown_padded_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "am:brown_padded_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "am:brown_padded_block_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_padded_block",
+      "has_the_recipe"
+    ]
+  ]
+}

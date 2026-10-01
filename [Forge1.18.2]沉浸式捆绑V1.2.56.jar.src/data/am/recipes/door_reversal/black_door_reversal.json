@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "am:black_padded_block_door"
+    }
+  ],
+  "result": {
+    "item": "am:black_padded_block_door"
+  }
+}

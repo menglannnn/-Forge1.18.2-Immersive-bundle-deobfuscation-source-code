@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "###",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:orange_wool"
+    }
+  },
+  "result": {
+    "item": "am:orange_cloth_blindfold",
+    "count": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "item": "minecraft:flint_and_steel",
+  "comment": "This is a sample json for adding escape properties to a vanilla item",
+  "properties": {
+    "scissoring": 0,
+    "cutting": 0,
+    "metal_filing": 0,
+    "metal_cutting": 0,
+    "fire": 8
+  }
+}
